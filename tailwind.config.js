@@ -25,10 +25,30 @@ module.exports = {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          50: "#FFF5F7",
+          100: "#FFE1E7",
+          200: "#FFB3C3",
+          300: "#FF859F",
+          400: "#FF577B",
+          500: "#FF2957",
+          600: "#DB1B45",
+          700: "#B71034",
+          800: "#930823",
+          900: "#7A0012"
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          50: "#F8FAFC",
+          100: "#F1F5F9",
+          200: "#E2E8F0",
+          300: "#CBD5E1",
+          400: "#94A3B8",
+          500: "#64748B",
+          600: "#475569",
+          700: "#334155",
+          800: "#1E293B",
+          900: "#0F172A"
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -72,5 +92,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require('@tailwindcss/typography'),
+  ],
 } 

@@ -23,7 +23,7 @@ const recipes: Recipe[] = [
       'Top with fresh basil leaves and drizzle with olive oil.'
     ],
     category: 'dinner',
-    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002',
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=80',
     prepTime: '20 mins',
     cookTime: '15 mins',
     servings: 4
@@ -49,7 +49,7 @@ const recipes: Recipe[] = [
       'Drizzle with olive oil.'
     ],
     category: 'breakfast',
-    image: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d',
+    image: 'https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80',
     prepTime: '5 mins',
     cookTime: '5 mins',
     servings: 2
@@ -75,7 +75,7 @@ const recipes: Recipe[] = [
       'Bake for 10-12 minutes until golden.'
     ],
     category: 'dessert',
-    image: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e',
+    image: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80',
     prepTime: '15 mins',
     cookTime: '12 mins',
     servings: 24
